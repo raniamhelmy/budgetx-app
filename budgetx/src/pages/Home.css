@@ -1,0 +1,48 @@
+.home-container {
+    width: 50%;
+    margin: auto;
+  }
+
+  .home-reset {
+    border: 1px solid #001f3f;
+    font-family: 'Noto Sans', sans-serif;
+    width: 40%;
+    padding: 8px 3px;
+    margin: 10px auto;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .home-reset:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+  }
+  .home-reset > i {
+    margin-right: 5px;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .home-reset {
+      width: 20%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .home-container {
+      width: 90%;
+    }
+    .home-reset {
+      width: 25%;
+    }
+  }
+  
+  @media only screen and (max-width: 512px) {
+    .home-container {
+      width: 98%;
+    }
+    .home-reset {
+      width: 40%;
+    }
+  }
+  

@@ -1,0 +1,37 @@
+.list-component-container {
+    width: 100%;
+  }
+
+  .card-container {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
+    margin: 15px 5px;
+  }
+  .home-empty {
+   text-align: center;
+   margin: auto;
+   font-family: 'Noto Sans', sans-serif;
+   color: #001f3f;
+   font-weight: bold;
+  }
+
+  .home-empty-string{
+  font-size: 20px;
+  }
+  
+  .budget-value{
+    color: #001f3f;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 5px 0px;
+    
+  }
+  
+  .budget-value >span{
+    color:red;
+  }
+  
