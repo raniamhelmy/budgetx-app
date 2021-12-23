@@ -1,6 +1,6 @@
 # React Redux Budgetx App
 
-This is a simple website to Calculate user's budget during specific period of time. Here, a user can add his/her purchases during i.e. a month and calculate his/her rate of money spend. Each Item that the user can add to the application will be categorized from high->low periority. Also, a search bar was added in order to allow the user to search for item that added to the list before. This project was created with React Redux; as a learning project to get use of this feature to be embedded in more complex projects afterwards 'if needed'. 
+This is a simple website to Calculate user's budget during specific period of time. Here, a user can add his/her purchases during i.e. a month and calculate his/her rate of money spend. Each Item that the user can add to the application will be categorized from high->low priority. Also, a search bar was added in order to allow the user to search for item that added to the list before. This project was created with React Redux; as a learning project to get use of this feature to be embedded in more complex projects afterwards 'if needed'. 
 
 >Note that this App using Redux-Persist; that means the app will remember your adding/deleted item even if you refresh the page or close it suddenly, so you will not be afraid of loosing data you have entered before.  
 
@@ -39,7 +39,7 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../budgetx-app
+$ cd ../budgetx
 $ npm install
 $ npm start
 ```
